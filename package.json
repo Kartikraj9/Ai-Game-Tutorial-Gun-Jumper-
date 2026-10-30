@@ -1,0 +1,30 @@
+{
+  "name": "ai-game",
+  "version": "1.0.0",
+  "description": "A high-octane 2D recoil-based platformer featuring a Goblin Tinkerer with steampunk weaponry, powered by Phaser and Vite.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "convert-sprites": "node scripts/convert-sprites.mjs",
+    "pack-sheets": "node scripts/pack-spritesheets.mjs"
+  },
+  "keywords": [
+    "phaser",
+    "platformer",
+    "recoil-mechanics",
+    "game-dev",
+    "vite"
+  ],
+  "author": "NitrexBoy",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "phaser": "^4.2.1",
+    "vite": "^8.3.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}
